@@ -23,7 +23,7 @@ model:
     query_enc_rnn_dropout: 0.5
     glove_path: ""
     ### Sequential Query Attention Network (SQAN)
-    num_semantic_entity: 8
+    num_semantic_entity: 5
     sqan_qdim: -1 # == qdim 
     sqan_att_cand_dim: -1 # == qdim
     sqan_att_key_dim: -1 # == qdim

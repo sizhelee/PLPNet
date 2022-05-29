@@ -15,20 +15,22 @@ where both sentence and phrase features interact with video features, harvesting
 
 Dataset              | R@0.3 | R@0.5 | R@0.7 | mIoU
 -------------------- | ------| ------| ------| ------
-ActivityNet Captions | 59.14 | 41.77 | 22.98 | 41.24
-Charades-STA         | 73.39 | 60.54 | 36.77 | 51.71
+ActivityNet Captions | 56.92 | 39.20 | 20.91 | 39.53
+Charades-STA         | 73.49 | 58.95 | 35.48 | 51.53
 
 ### Phrase
 
 Dataset              | R@0.3 | R@0.5 | R@0.7 | mIoU
 -------------------- | ------| ------| ------| ------
-ActivityNet Captions | 50.16 | 37.43 | 23.40 | 37.07
-Charades-STA         | 63.16 | 37.87 | 17.07 | 39.80
+ActivityNet Captions | 50.10 | 38.12 | 25.24 | 37.96
+Charades-STA         | 63.49 | 40.52 | 19.27 | 40.76
 
 ### 1. Dependencies
 
 This repository is implemented based on [PyTorch](http://pytorch.org/) with Anaconda.</br>
-Refer to [Setting environment with anaconda](anaconda_environment.md) or use **Docker** (choco1916/envs:temporal_grounding).
+<!-- Refer to [Setting environment with anaconda](anaconda_environment.md) or use **Docker** (choco1916/envs:temporal_grounding). -->
+It relies on python 3.6 and pytorch 1.1.0(other versions may alse work but are not tried).
+
 
 ### 2. Prepare data
 
